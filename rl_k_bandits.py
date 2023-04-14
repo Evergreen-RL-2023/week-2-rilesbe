@@ -24,6 +24,9 @@ def init_bandits():
 def run_bandits(n_steps):
     for i in range(n_steps):
         counts[0] += 1
+        #avg = avg + (1/i) * (rand.gauss(0,1) - avg)
+        for step in range(np.array.size + 1):
+
 
 
 if __name__ == '__main__':
@@ -33,3 +36,5 @@ if __name__ == '__main__':
 
     for i in range(k):
         print(q_star[i])
+
+    print(np.size)
